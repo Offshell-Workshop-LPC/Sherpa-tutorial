@@ -26,6 +26,8 @@
   PDF_LIBRARY LHAPDFSherpa;
   PDF_SET NNPDF30_nnlo_as_0118;
   PDF_VARIATIONS NNPDF30_nnlo_as_0118[all];
+
+  HEPMC_USE_NAMED_WEIGHTS 1;
 }(run)
 
 (processes){
